@@ -1,4 +1,4 @@
-# 2017 Thomas Fire Scar Visualization
+# 2017 Thomas Fire Scar Visualization - A Python Analysis
 
 ## About
 This repository contains Jupyter Notebooks for my analysis and visualization of the [2017 Thomas Fire](https://en.wikipedia.org/wiki/Thomas_Fire). This fire burned about 281,893 acres, making it the 8th largest fire in California's history. 
@@ -23,7 +23,7 @@ thomas-fire-analysis
 
 - `fire-perimeter-file.ipynb` contains the code for wrangling historic, open-source fire perimeter data to a geospatial file containing only the boundary for the 2017 Thomas Fire.
 - `false-color.ipynb` contains the code for creating false color imagery from Landsat data and burn scar visualization.
-- `aqi.ipynb contains the code for creating an AQI timeseries plot during the Thomas Fire from EPA's Daily AQI data.
+- `aqi.ipynb` contains the code for creating an AQI timeseries plot during the Thomas Fire from EPA's Daily AQI data.
 - `thomas-fire-blog.ipynb` contains code and markdown for my [blog post about the analysis](link to blog post here).
     
 ## Data details
