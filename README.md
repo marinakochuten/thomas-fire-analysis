@@ -32,11 +32,12 @@ thomas-fire-analysis
 
 **Landsat imagery:** I use a simplified collection of bands (red, green, blue, near-infrared and shortwave infrared) from the Landsat Collection 2 Level-2 atmosperically corrected surface reflectance data, collected by the Landsat 8 satellite. The data was retrieved from the Microsoft Planetary Computer data catalogue and pre-processed by Dr. Carmen Galaz García to remove data outside land and coarsen the spatial resolution. 
 
-
+**Air Quality Index (AQI):** The EPA's AirData tool has pre-generated files of data available for download. The files are updated twice per year: once in June to capture the complete data for the prior year and once in December to capture the data for the summer. AQI is calculated each day for each monitor for the Criteria Gases and PM10 and PM2.5. For this analysis, I use two files, one containing daily AQI data for 2017 and one for 2018.
 
 *Note:* My data folder is in the .gitignore. To run my code, access the data and add to data folder from here:
 - **Fire perimeters:** Download the California_Fire_Perimeters (all) shapefile from this link: https://gis.data.cnra.ca.gov/api/download/v1/items/e3802d2abf8741a187e73a9db49d68fe/shapefile?layers=0. The code to create the boundary for the 2017 Thomas Fire from this shapefile is housed in `hwk4-task2-fire-perimeter-kochuten.ipynb`.
 - **Landsat imagery:** This data is housed in the EDS 220 class server. Within the server, the data can be accessed through this path: `/courses/EDS220/data/hwk4_landsat_data landsat8-2018-01-26-sb-simplified.nc`.
+- **Air Quality Index (AQI):** This data is accessed using the direct links included in my code.
  
 
 ## References
@@ -45,7 +46,9 @@ thomas-fire-analysis
 
 **Landsat imagery:** Microsoft Planetary Computer data catalogue (2024), *Landsat Collection 2 Level-2 (simplified)* [Data set] Available from: https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2. Access date: November 18, 2024.
 
+**Air Quality Index (AQI):** Environmental Protection Agency AirData (2024), Daily AQI by County [Data Set] Available from: https://www.epa.gov/outdoor-air-quality-data/download-daily-data. Access date: October 20, 2024.
+
 ## Acknowledgements
 
-This repository was created as an assignment for the graduate course EDS 220: Working with Environmental Datasets in the [Masters of Environmental Data Science (MEDS) program](https://bren.ucsb.edu/masters-programs/master-environmental-data-science), taught by [Dr. Carmen Galaz García](https://github.com/carmengg).
+This repository was created as the final assignment for the graduate course EDS 220: Working with Environmental Datasets in the [Masters of Environmental Data Science (MEDS) program](https://bren.ucsb.edu/masters-programs/master-environmental-data-science), taught by [Dr. Carmen Galaz García](https://github.com/carmengg).
 
